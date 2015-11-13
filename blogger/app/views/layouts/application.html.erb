@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Blogger</title>
+  <title>A Homemade Blog</title>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
 </head>
 <body>
+
+	<h1> Cecilia's Homemade Blog</h1>
+	<p class="flash"><%= flash.notice %></p>
 
 <%= yield %>
 
