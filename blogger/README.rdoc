@@ -1,28 +1,12 @@
-== README
+**READ ME**
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Completed I0 - I5 in the [Jumpstart Lab Blogger 2 tutorial](http://tutorials.jumpstartlab.com/projects/blogger.html#blogger-2). This is an excellent tutorial and I am now more familiar with the Rails environment. 
 
-Things you may want to cover:
+* Things I still need to add to my homemade blog
+  * Invite new users to register
+  * Add image editing in browser for cropping and rotation
+  * Ability to add more than one image in a post
+  * Order articles with date shown
+  * Show a few lines of article content in articles list
+  * Add authentication with external services like Twitter, Facebook, Google 
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
