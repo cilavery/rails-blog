@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>A Homemade Blog</title>
+ 
+ <header> 
+	<h1>CECILIA'S HOMEMADE BLOG</h1>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,100,300italic,400italic' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,300' rel='stylesheet' type='text/css'>
+</header>
+</head>
+<body>
+
+	<p class="flash"><%= flash.notice %></p>
+
+	<div id="container">
+		<div id="content">
+			<%= yield %>
+			<hr>
+			<h6>
+				<% if logged_in? %>
+				  <%= "Logged in as #{current_user.email}" %>
+				  <%= link_to "(logout)", logout_path %>
+				<% else %>
+				<%= link_to "(login)", login_path %>
+				<% end %>
+			</h6>
+		</div>
+	</div>
+</body>
+
+
+
+
+
+</html>
