@@ -8,6 +8,7 @@ header {
 }
 
 
+
 image {
 	border: 1 px solid pink;
 	border-radius: 50%;
@@ -35,7 +36,7 @@ h1 {
 }
 
 body {
-	background-color: $white_color;
+	background-color: pink;
 	font: {
 	  family: Lato, sans-serif;
 	  size: 14px;
@@ -62,13 +63,14 @@ a {
 #container {
 	width: 75%;
 	margin: 0 auto;
-	background: #fff;
-	padding: 20px 40px;
+	background: #FFF0F7;
+	padding: 0;
 	margin-top: 20x;
 }
 
 #content {
 	clear: both;
 	padding-top: 20px;
+	background-color: #FFF0F7;
 }
 
