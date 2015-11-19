@@ -36,7 +36,7 @@ h1 {
 }
 
 body {
-	background-color: pink;
+	background-color: white;
 	font: {
 	  family: Lato, sans-serif;
 	  size: 14px;
@@ -48,10 +48,15 @@ body {
 }
 
 a {
-	color: #20a573;
+	color: black;
+	text-decoration: none;
 	img {
 	  border: none;
 	}
+}
+
+a:hover {
+	color: #55bf67;
 }
 
 .clear {
@@ -63,7 +68,7 @@ a {
 #container {
 	width: 75%;
 	margin: 0 auto;
-	background: #FFF0F7;
+	background: white;
 	padding: 0;
 	margin-top: 20x;
 }
@@ -71,6 +76,6 @@ a {
 #content {
 	clear: both;
 	padding-top: 20px;
-	background-color: #FFF0F7;
+	background-color: white;
 }
 
